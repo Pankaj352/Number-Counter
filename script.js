@@ -17,6 +17,7 @@ function decrement() {
 }
 
 function reset() {
- countBox.textContent = 0;
+ count = 0;
+ countBox.textContent = count;
  err.textContent = "";
 }
